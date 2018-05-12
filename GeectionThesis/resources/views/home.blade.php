@@ -2,6 +2,6 @@
 
 @section
     <div class="container">
-        <p>aku sayang ulfa</p>
+        <p>Testing</p>
     </div>
 @endsection
