@@ -4,7 +4,7 @@
     @include('layout.partials.head')
 </head>
 <body>
-    @include('layout.partials.navigation')
+    @include('layout.partials.nav')
 
     @yield('content')
 

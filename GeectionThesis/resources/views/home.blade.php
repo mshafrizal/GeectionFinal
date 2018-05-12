@@ -1,6 +1,6 @@
 @extends('layout.mainlayout')
 
-@section
+@section('section')
     <div class="container">
         <p>Testing</p>
     </div>
