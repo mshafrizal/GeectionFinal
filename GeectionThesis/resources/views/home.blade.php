@@ -1,7 +1,7 @@
 @extends('layout.mainlayout')
 
-@section('section')
-    <div class="container">
-        <p>Testing</p>
-    </div>
+@section('content')
+    <main role="main" style="height:500px;">
+        
+    </main>
 @endsection
