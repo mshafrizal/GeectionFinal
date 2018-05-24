@@ -38,36 +38,44 @@
             <hr>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                    <a href="" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                    <a href="" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                    <a href="" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                    <a href="" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h6 class="card-title" style="font-size:1.5vw;">Kategori</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <!-- Baris Produk -->
@@ -78,40 +86,48 @@
             <hr>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
-                            <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                    <a href="#" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
+                                <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
-                            <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                    <a href="#" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
+                                <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
-                            <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                    <a href="#" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
+                                <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" style="max-width:15rem; margin:8px;">
-                        <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
-                            <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                    <a href="#" class="custom-card">
+                        <div class="card" style="max-width:15rem; margin:8px;">
+                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" style="font-size:2vw;">Ambil title dr DB</h5>
+                                <h6 class="card-title" style="font-size:1.5vw;">Ambil harga dr DB</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
