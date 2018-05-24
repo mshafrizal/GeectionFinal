@@ -8,9 +8,13 @@ use App\Product;
 class ProductController extends Controller
 {
     function index(){
-        $nama = "bawang";
-        $products = Product::where('id','1')->where('nama',$nama)->get(); 
-        dd($products);
+        $products = Product::all();
         return view('home')->with('products', $products);
+    }
+
+    function kategori(){
+        $fKategori = 'handphone';
+        $products = Product::where('kategori',$fKategori)->get(); 
+        dd($products);
     }
 }
