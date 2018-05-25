@@ -12,14 +12,15 @@
 */
 
 Route::get('/', 'ProductController@index');
-
+// Route::get('/', function(){
+//     return view('home');
+// });
 Route::get('/product', function () {
     return view('product');
 });
 Route::get('/category', function () {
     return view('category');
 });
-// Route::get('/product', 'ProductController@index');
 
 Auth::routes();
 Route::get('/test', 'ProductController@kategori');
