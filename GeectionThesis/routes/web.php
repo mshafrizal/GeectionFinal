@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'ProductController@index');
+// Route::get('/', 'ProductController@kategori');
 // Route::get('/', function(){
 //     return view('home');
 // });
@@ -23,5 +24,5 @@ Route::get('/category', function () {
 });
 
 Auth::routes();
-Route::get('/test', 'ProductController@kategori');
+
 

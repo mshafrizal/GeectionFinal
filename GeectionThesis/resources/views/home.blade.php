@@ -37,46 +37,18 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-sm-3">
-                    <a href="" class="custom-card">
-                        <div class="card" style="max-width:15rem; margin:8px;">
-                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                            <div class="card-body text-center">
-                                <h6 class="card-title" style="font-size:1.5vw;">Hobi & Collection</h6>
+                @foreach($products as $product)
+                    <div class="col-sm">
+                        <a href="" class="custom-card">
+                            <div class="card" style="max-width:15rem; margin:8px;">
+                                <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h6 class="card-title" style="font-size:1.5vw;">{{$product->kategori}}</h6>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3">
-                    <a href="" class="custom-card">
-                        <div class="card" style="max-width:15rem; margin:8px;">
-                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                            <div class="card-body text-center">
-                                <h6 class="card-title" style="font-size:1.5vw;">Laptop</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3">
-                    <a href="" class="custom-card">
-                        <div class="card" style="max-width:15rem; margin:8px;">
-                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                            <div class="card-body text-center">
-                                <h6 class="card-title" style="font-size:1.5vw;">Handphone</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3">
-                    <a href="" class="custom-card">
-                        <div class="card" style="max-width:15rem; margin:8px;">
-                            <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">
-                            <div class="card-body text-center">
-                                <h6 class="card-title" style="font-size:1.5vw;">Jam Tangan</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                @endforeach
             </div>
             <!-- Baris Produk -->
             <br>
@@ -86,7 +58,7 @@
             <hr>
             <div class="row">
             @foreach($products as $product)
-                <div class="col-sm-3">
+                <div class="col-sm">
                     <a href="#" class="custom-card">
                         <div class="card" style="max-width:15rem; margin:8px;">
                             <img src="{{ asset('img/kelli-tungay.png') }}" alt="Card image cap" class="card-img-top">

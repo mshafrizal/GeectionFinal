@@ -12,9 +12,9 @@ class ProductController extends Controller
         return view('home')->with('products', $products);
     }
 
-    function kategori(){
-        $fKategori = 'handphone';
-        $products = Product::where('kategori',$fKategori)->get(); 
-        dd($products);
-    }
+    // function kategori(){
+    //     $fKategori = 'handphone';
+    //     $products = Product::where('kategori',$fKategori)->get(); 
+    //     return view('home')->with('kategori', $products);
+    // }
 }
