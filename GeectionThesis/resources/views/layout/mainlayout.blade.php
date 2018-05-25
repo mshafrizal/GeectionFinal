@@ -3,7 +3,7 @@
 <head>
     @include('layout.partials.head')
 </head>
-<body>
+<body style="background:#f8f8f8;">
     @include('layout.partials.nav')
 
     @yield('content')
