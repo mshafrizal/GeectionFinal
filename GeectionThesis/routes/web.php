@@ -12,10 +12,7 @@
 */
 
 Route::get('/', 'ProductController@index');
-// Route::get('/', 'ProductController@kategori');
-// Route::get('/', function(){
-//     return view('home');
-// });
+
 Route::get('/product', function () {
     return view('product');
 });
@@ -24,5 +21,9 @@ Route::get('/category', function () {
 });
 
 Auth::routes();
+Route::get('/daftarBarang', function(){
+    return view('menu/insertProduct');
+});
 
-
+Route::resource('product','ProductController',['names' => [
+            'store' => 'product.store']]);

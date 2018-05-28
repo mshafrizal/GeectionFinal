@@ -4,7 +4,7 @@
 			<div class=" col-lg-5-24 col-12 col-sm-5">
 				<div class="brand-wrap">
 					<img class="logo" src="images/logo-dark.png">
-					<h2 class="logo-text">LELANGAJA.com</h2>
+					<a href="{{ url('/') }}" class="logo-text"></a>
 				</div> <!-- brand-wrap.// -->
 			</div>
 			<div class="col-lg-13-24 col-sm-12 order-3 order-lg-2">
